@@ -27,7 +27,7 @@ https://github.com/daliansky/Hackintosh
 
 cpu  :  E3-1225 V3
 
-主板 ：  dell optiplex 3020mt 主板    H81  
+主板 ：  Dell optiplex 3020mt 主板    H81  
 
 内存  ： DDR3 1333 2G*2
 
@@ -42,6 +42,27 @@ SSD  ：  32G sata ssd
 bios ：  AMI uEFI
 
 -------------------------------------------------------------------
+
+能正常引导安装 macOS Catalina 10.15.7
+
+Dell optiplex 3020mt 主板 BOIS的选项很少， 
+
+EHCI/XHCI Hand-off  ， CFG Lock  没有选项。
+
+只能在 EFI-OC 中关闭。
+
+
+-------------------------------------------------------------------
+
+本项目在 https://github.com/tbwcjw/Dell-Optiplex-3020M-EFI  基础上，优化改动。
+
+增加了RTL8111网卡驱动，  
+
+改动Realtek ALC280 声卡驱动
+
+
+
+
 
 
 
