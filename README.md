@@ -45,24 +45,30 @@ Networking : Generic Intel PCIE NIC (7265) ----tbwcjw
 
 -------------------------------------------------------------------
 
-能正常引导安装 macOS Catalina 10.15.7
+1, 能正常引导安装 macOS Catalina 10.15.7
 
-Dell optiplex 3020mt 主板 BOIS的选项很少， 
+2. Dell optiplex 3020mt 主板 BOIS的选项很少， 
 
-EHCI/XHCI Hand-off  ， CFG Lock  没有选项。
+        EHCI/XHCI Hand-off  ， CFG Lock  没有选项。
+    
+        只能在 EFI-OC 中关闭。
 
-只能在 EFI-OC 中关闭。
+3, macOS视频输出，VGA接口不支持，只能用DP口，可能用DP口转HDMI口转换器，转成HDMI信号。
+
 
 
 -------------------------------------------------------------------
 
 本项目在 https://github.com/tbwcjw/Dell-Optiplex-3020M-EFI  基础上，优化改动。感谢tbwcjw的无私分享。
 
-增加了RTL8111网卡驱动，  
 
-改动Realtek ALC280 声卡驱动
+v1.0.1项目
 
-tbwcjw 原EFI支持 Intel PCIE NIC 7265 ，给与保留。
+    增加了RTL8111网卡驱动，  
+
+    改动Realtek ALC280 声卡驱动
+
+    tbwcjw 原EFI支持 Intel PCIE NIC 7265 ，给与保留。
 
 
 
