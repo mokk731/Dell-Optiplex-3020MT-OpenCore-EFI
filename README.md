@@ -25,21 +25,21 @@ https://github.com/daliansky/Hackintosh
 
 ## 我的硬件表：
 
-cpu    E3-1225 V3
+cpu  :  E3-1225 V3
 
-主板   dell optiplex 3020mt 主板    H81  
+主板 ：  dell optiplex 3020mt 主板    H81  
 
-内存   DDR3 1333 2G*2
+内存  ： DDR3 1333 2G*2
 
-显卡   核显HD P4600
+显卡 ：  核显HD P4600
 
-声卡   Realtek ALC280 
+声卡 ：  Realtek ALC280 
 
-网卡   RTL8111/RTL8168
+网卡 ：  RTL8111/RTL8168
 
-SSD    32G sata ssd
+SSD  ：  32G sata ssd
 
-bios   AMI uEFI
+bios ：  AMI uEFI
 
 -------------------------------------------------------------------
 
