@@ -18,7 +18,7 @@ iMac 15,1,  带独立显卡
 
 除了上面这三个之外，和苹果服务相关的还有 ROM 值，黑苹果一般用网卡 MAC（Media Access Control Address）地址代替，除此之外还有另一种白苹果 MAC 地址混搭的方法，下文会一起介绍。
 
-https://geekdaxue.co/read/hejianzhao@zgnsc5/uu5xhg
+-----------------------------------------------------------------------
 
 
 我们常说的“修改 OC 配置文件”指的就是修改 /EFI/OC/ 目录下的 config.plist 文件，这是 OpenCore 的核心配置文件。考虑到目前已经有各式各类的工具可配置 OpenCore，这里提供多种工具和方法，选择其中之一即可：
@@ -31,7 +31,9 @@ ProperTree：使用 Python 编写的跨平台 Plist 编辑工具，优点是可�
 
 Visual Studio Code：严格来说这是一个代码编辑器，同类型的还有 Sublime Text，UltraEdit 等，其优点是自由度较高，不会污染配置文件；缺点是没有代码基础知识没法使用，较高的自由度也带来了犯更多错的可能；
 
+-----------------------------------------------------------------------
 
+https://geekdaxue.co/read/hejianzhao@zgnsc5/uu5xhg
 
 GenSMBIOS 生成SMBIOS
 在最后加上数字5，可以一次显示5套SMBIOS，注意留空格：
