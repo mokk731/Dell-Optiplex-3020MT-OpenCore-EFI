@@ -67,5 +67,6 @@ NVRAM → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → boot-args
 直接添加启动参数 alcid=1，重启后若没有效果则修改为 alcid=2，以此类推，直到找到适合使用的布局 ID。
 
 Realtek ALC280  alcid=3，4，11，13，15，16，17,18,21
+
 我用alcid=3，就正常发声。
 
