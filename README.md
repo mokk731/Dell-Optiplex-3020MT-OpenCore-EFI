@@ -72,7 +72,7 @@ v1.0.1项目
 
     4,  MLB，SystemSerialNumber，SystemUUID
       三码空白，要用OCAuxiliaryTools 填写自己的。
-      https://github.com/ic005k/OCAuxiliaryTools
+      
 
 
 
