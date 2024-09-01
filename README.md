@@ -25,7 +25,7 @@ https://github.com/daliansky/Hackintosh
 
 ## 我的硬件表：
 
-cpu  :  E3-1225 V3
+CPU  :  E3-1225 V3
 
 主板 ：  Dell optiplex 3020mt 主板    H81  
 
