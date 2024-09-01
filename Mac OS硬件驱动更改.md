@@ -6,7 +6,7 @@ https://bbs.pcbeta.com/viewthread-1094423-1-1.html
 1. 打开终端：
 打开终端，执行：
 
-sudo -s
+       sudo -s
 
 然后键入你的密码，做好切换管理员的动作。
 PS. sudo 是一个安全为考虑的执行管理指令的方法，这边不多做介绍。
@@ -17,23 +17,23 @@ PS. sudo 是一个安全为考虑的执行管理指令的方法，这边不多�
 方法二：假设你的驱动叫AppleBCM5751Ethernet.kext，并放在桌面的，
 指令如下：
 
-cp -r ~/Desktop/AppleBCM5751Ethernet.kext /System/Library/Extensions/
+    cp -r ~/Desktop/AppleBCM5751Ethernet.kext /System/Library/Extensions/
 
 注意：请把AppleBCM5751Ethernet.kext换成你自己要安装的.kext驱动名
 4. 更改文件权限：
 文件权限是UNIX系统中蛮重要的一个观念，在Unix为基础的Mac OS X中也一样，就是要把这些复制到系统内的文件的权限切换成系统（管理员）拥有与使用，指令如下：
 
-sudo chown -R root:wheel /System/Library/Extensions/AppleBCM5751Ethernet.kext
-sudo chmod -R 755 /System/Library/Extensions/AppleBCM5751Ethernet.kext
+ sudo chown -R root:wheel /System/Library/Extensions/AppleBCM5751Ethernet.kext
+ sudo chmod -R 755 /System/Library/Extensions/AppleBCM5751Ethernet.kext
 
 注意：请把AppleBCM5751Ethernet.kext换成你自己要安装的.kext驱动名
 5. 清除 kext 的快取：
 要清除已经安装并制作快取的kext 快取内容，不然可能下次重启之后系统还是去读取快取，就不会读到新放进去kext 驱动
 指令如下：
 
-rm /System/Library/Extensions.kextcache
-rm /System/Library/Extensions.mkext
-kextcache -k /System/Library/Extensions
+    rm /System/Library/Extensions.kextcache
+    rm /System/Library/Extensions.mkext
+    kextcache -k /System/Library/Extensions
 
 6. 系统重启：
 硬件驱动后基本上是需要重启才会加载，可以点选右上角的苹果点选重启系统，或是使用指令 reboot 重启，接下来就是祈祷重启后系统一切正常，硬件支持良好啦！
