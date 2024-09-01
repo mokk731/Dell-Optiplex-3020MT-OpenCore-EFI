@@ -75,3 +75,9 @@ In case of 3020 MT and 3020 SFF computers
     Parallel Port（并口，此项未关闭可能症状同串口）；
 
     Re-Size BAR Support（AMD平台称为Smart Access Memory/SAM），如果你有RX6000系显卡则此项可以开启； 
+
+-----------------------------------------------
+
+https://www.youtube.com/watch?v=uS3X13naPcM
+
+解锁BIOS的CFG Lock，完美黑苹果的重要一步，别看步骤多其实特简单   #####
