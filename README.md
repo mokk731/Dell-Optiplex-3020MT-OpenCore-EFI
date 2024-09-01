@@ -47,7 +47,7 @@ Networking : Generic Intel PCIE NIC (7265) ----tbwcjw
 
 1, 能正常引导安装 macOS Catalina 10.15.7
 
-2. Dell optiplex 3020mt 主板 BOIS的选项很少， 
+2，Dell optiplex 3020mt 主板 BOIS的选项很少， 
 
         EHCI/XHCI Hand-off  ， CFG Lock  没有选项。
     
