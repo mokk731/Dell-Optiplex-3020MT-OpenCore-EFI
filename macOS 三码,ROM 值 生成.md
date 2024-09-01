@@ -6,7 +6,7 @@ OpenCore生成三码，修复苹果服务无法使用
 
 iMac14,4 : iMac (21.5-inch, Mid 2014)；适合四代酷睿HD4400/4600核显无独显使用。
 
-iMac14,3   i5-4570S@2.9G, 4C4T ,HD Graphics 4600
+iMac14,3   i5-4570S@2.9G, 4C4T ,HD Graphics 4600   #####
 
 iMac 15,1,  带独立显卡
 
