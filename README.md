@@ -20,3 +20,16 @@ iMac15,1
 
 
 https://github.com/daliansky/Hackintosh
+
+-------------------------------------------------------------------
+
+## 我的硬件表：
+
+cpu    E3-1225V3
+主板   dell optiplex 3020mt 主板  040DDP  H81  C220
+内存   DDR3 1333 2G*2
+显卡   核显HD P4600
+声卡   Realtek ALC280   ALC3220
+网卡   RTL8111/RTL8168
+SSD    32G sata ssd
+bios   AMI uEFI
