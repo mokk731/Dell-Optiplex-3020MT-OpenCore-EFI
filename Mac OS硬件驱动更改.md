@@ -36,6 +36,7 @@ MAC OS驱动安装与卸载
 
 由于macOS 10.15 锁住了S/L/E的修改权限，因此在修改kext前要使用终端先解锁S/L/E权限
 打开终端依次输入
+
     sudo su
     sudo mount -uw /
     killall Finder 
