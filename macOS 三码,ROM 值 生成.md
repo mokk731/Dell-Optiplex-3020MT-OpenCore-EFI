@@ -1,6 +1,7 @@
 https://heipg.cn/tutorial/macserial-and-iservice-opencore.html
 
 OpenCore生成三码，修复苹果服务无法使用
+解决一些苹果服务（iCloud/App Store/FaceTime/iMessage/随航）
 
 
 iMac14,4 : iMac (21.5-inch, Mid 2014)；适合四代酷睿HD4400/4600核显无独显使用。
