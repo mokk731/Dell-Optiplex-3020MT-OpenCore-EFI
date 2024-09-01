@@ -54,7 +54,7 @@ EHCI/XHCI Hand-off  ， CFG Lock  没有选项。
 
 -------------------------------------------------------------------
 
-本项目在 https://github.com/tbwcjw/Dell-Optiplex-3020M-EFI  基础上，优化改动。
+本项目在 https://github.com/tbwcjw/Dell-Optiplex-3020M-EFI  基础上，优化改动。感谢tbwcjw的无私分享。
 
 增加了RTL8111网卡驱动，  
 
