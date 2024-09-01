@@ -5,7 +5,7 @@ Dell-Optiplex-3020MT-OpenCore-EFI, Hackintosh
 
 https://github.com/tbwcjw/Dell-Optiplex-3020M-EFI   #####
 
-EFI Files for my Dell Optiplex 3020M. Tested and working with macOS Catalina
+This repository contains EFI files for my Dell Optiplex 3020M, tested and confirmed to work with macOS Catalina 10.15.7.
 
 https://github.com/Kinetik/Dell-Optiplex-3020-sff-OC
 
