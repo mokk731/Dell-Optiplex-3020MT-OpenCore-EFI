@@ -1,4 +1,5 @@
 https://bbs.pcbeta.com/viewthread-1094423-1-1.html
+
  Mac OS硬件驱动(.kext)安装方法
 我当初找到了 T43 用的 Broadcomd 5751 的kext档案 AppleBCM5751Ethernet.kext
 我以他为例安装入系统内的步骤如下：
@@ -45,10 +46,12 @@ MAC OS驱动安装与卸载
 oc auxiliary tools
 
 https://github.com/ic005k/OCAuxiliaryTools
+
 OCAuxiliaryTools（简称OCAT或ocat） = Config.plist编辑器 + Config.plist数据库
 
 
 https://heipg.cn/tutorial/applealc-patch.html
+
 使用 AppleALC 驱动黑苹果声卡
 下载 AppleALC.kext，把文件放到 /EFI/OC/Kexts/ 目录，然后使用你喜欢的编辑器编辑 config.plist 文件，找到以下位置：
 NVRAM → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → boot-args
