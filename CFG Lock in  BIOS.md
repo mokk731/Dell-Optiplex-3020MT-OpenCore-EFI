@@ -23,3 +23,8 @@ In case of 3020 MT and 3020 SFF computers
     setup_var 0x146 0x0
     setup_var 0x147 0x0
 4. Reboot the system when done.
+
+
+-------------------------------------------
+
+本项目已在EFI-OC 中关闭 CFG Lock ，不用改BIOS.
