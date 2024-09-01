@@ -53,7 +53,7 @@ Networking : Generic Intel PCIE NIC (7265) ----tbwcjw
     
         只能在 EFI-OC 中关闭。
 
-3, macOS视频输出，VGA接口不支持，只能用DP口，可能用DP口转HDMI口转换器，转成HDMI信号。
+3, macOS视频输出，VGA接口不支持，只能用DP口，可用DP口转HDMI口转换器，转成HDMI信号。
 
 
 
@@ -64,11 +64,14 @@ Networking : Generic Intel PCIE NIC (7265) ----tbwcjw
 
 v1.0.1项目
 
-    增加了RTL8111网卡驱动，  
+    1, 增加了RTL8111网卡驱动，  
 
-    改动Realtek ALC280 声卡驱动
+    2, 改动Realtek ALC280 声卡驱动
 
-    tbwcjw 原EFI支持 Intel PCIE NIC 7265 ，给与保留。
+    3,  tbwcjw 原EFI支持 Intel PCIE NIC 7265 ，给与保留。
+
+    4,  MLB，SystemSerialNumber，SystemUUID
+      三码空白，要用OCAuxiliaryTools 填写自己的。
 
 
 
