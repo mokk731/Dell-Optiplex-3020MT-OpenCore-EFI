@@ -10,7 +10,7 @@ In case of 3020 MT and 3020 SFF computers
 
    Disable CFG Lock:
 
-    setup_var 0xD9F 0x0
+    setup_var 0xD9E 0x0
     
   Set DVMT pre-alloc to 64MB:
 
