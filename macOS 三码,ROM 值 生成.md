@@ -27,6 +27,7 @@ iMac 15,1,  带独立显卡
 OpenCore Configurator：简称 OCC，和开发 Clover 配置工具的是同一个团队，优点是拥有逻辑清晰的图形界面，操作比较直观；缺点是只有 macOS 版本，并且偶尔会出现污染配置文件的情况，使用前注意备份；
 
 OCAuxiliaryTools：OpenCore 配置工具中的后起之秀，优点是拥有跨平台客户端，支持 Windows、macOS 和 Linux，拥有图形界面，操作比较直观；缺点是功能排版上稍显凌乱，和 OCC 一样偶尔会出现污染配置文件的情况，使用前注意备份；
+https://github.com/ic005k/OCAuxiliaryTools
 
 ProperTree：使用 Python 编写的跨平台 Plist 编辑工具，优点是可跨平台，支持 Windows、macOS 和 Linux（Python），通常情况下不会污染配置文件；缺点是虽然拥有图形界面，但却是一个树状的编辑器，和前两者不是同一个概念，因此操作上没有前二者方便；
 
