@@ -20,7 +20,7 @@ https://github.com/varszegimarcell/Optiplex-3020-Hackintosh-OpenCore         ###
 
 This repository contains a guide on how to install macOS on the Dell Optiplex 3020, with the neccesary files.iMac15,1
 
-不能正常引导，但将 BIOS的CFG Lock 解锁，也不行，打了三码，才能进入选择菜单，进不了正常引导原来装好的MAC
+不能正常引导，但将 BIOS的CFG Lock 解锁，也不行。打了三码，才能进入选择菜单，但进不了正常引导原来装好的MAC OS
 
 https://github.com/daliansky/Hackintosh
 
