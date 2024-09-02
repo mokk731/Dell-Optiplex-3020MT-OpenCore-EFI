@@ -14,7 +14,7 @@ https://github.com/Kinetik/Dell-Optiplex-3020-sff-OC
 
 This repository contains a fully working (with standard hardware) EFI package with you can use to install all macOS versions up to Big Sur.
 
-不能正常引导，可能与 BIOS的CFG Lock 有关系，
+不能正常引导，但将 BIOS的CFG Lock 解锁， 就可以正常引导！！ 网卡，声卡正常。声卡有内置+耳机。但共享显存才7MB.
 
 https://github.com/varszegimarcell/Optiplex-3020-Hackintosh-OpenCore         #####
 
