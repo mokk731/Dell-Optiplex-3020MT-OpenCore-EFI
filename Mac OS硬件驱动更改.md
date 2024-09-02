@@ -63,7 +63,9 @@ https://heipg.cn/tutorial/applealc-patch.html
 
 使用 AppleALC 驱动黑苹果声卡
 下载 AppleALC.kext，把文件放到 /EFI/OC/Kexts/ 目录，然后使用你喜欢的编辑器编辑 config.plist 文件，找到以下位置：
-NVRAM → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → boot-args
+
+      NVRAM → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → boot-args
+          
 直接添加启动参数 alcid=1，重启后若没有效果则修改为 alcid=2，以此类推，直到找到适合使用的布局 ID。 （临时用）
 
 Realtek ALC280  alcid=3，4，11，13，15，16，17,18,21
@@ -73,7 +75,8 @@ Realtek ALC280  alcid=3，4，11，13，15，16，17,18,21
 
 修改为17，---11(16进制)    声卡有内置+耳机
 编辑器编辑 config.plist 文件，找到以下位置：
-DP--PciRoot---layout-id  11000000    (正式用)
+
+    DP--PciRoot---layout-id  11000000    (正式用)
 
 
 
