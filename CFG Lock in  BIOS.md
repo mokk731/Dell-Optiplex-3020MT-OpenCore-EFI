@@ -81,3 +81,24 @@ In case of 3020 MT and 3020 SFF computers
 https://www.youtube.com/watch?v=uS3X13naPcM
 
 解锁BIOS的CFG Lock，完美黑苹果的重要一步，别看步骤多其实特简单   #####
+
+
+
+https://apple.sqlsec.com/3-%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/3-1/
+
+国光的黑苹果安装教程  BIOS设置
+
+CFG Lock
+
+    MSR 0xE2 写保护
+    建议关闭，提高黑苹果完美度，很多笔记本没有这些选项，可能需要自己手动去解锁隐藏 BIOS 选项
+    如果不关闭的话，config.plist 配置里面设置 AppleXcpmCfgLock 选项为 YES 也是 OK 的 （但是完美度不如关闭 CFG Lock）
+
+VT-d
+
+    I/O 的虚拟化技术，和 VT-x 很容易混淆
+    建议关闭，一般搞 PVE 硬件直通才需要开启，正常普通人是用不到硬件直通技术的
+    如果不关闭的话，config.plist 配置里面设置 DisableIoMapper 选项为YES 也是 OK 的
+
+
+
