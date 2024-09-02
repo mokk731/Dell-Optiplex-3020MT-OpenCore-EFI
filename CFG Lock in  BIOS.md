@@ -101,4 +101,22 @@ VT-d
     如果不关闭的话，config.plist 配置里面设置 DisableIoMapper 选项为YES 也是 OK 的
 
 
+OC--Kernel--Quiks--
+
+AppleCpuPmCfgLock
+
+    如果你 BIOS 里面 CFG-Lock 已经关闭那么不需要这个
+
+AppleXcpmCfgLock
+
+    如果你 BIOS 里面 CFG-Lock 已经关闭那么不需要这个
+
+DisableIoMapper
+
+    禁用 XNU（VT-d）中的 IOMapper 支持
+    如果 BIOS 里面禁止了 VT-d，那么就不需要勾选了
+
+
+
+
 
