@@ -6,7 +6,9 @@
 
 
 
-1, UEFI --Drives
+1, 缺少 ResetNvramEntry.efi
+
+UEFI --Drives
 
     ResetNvramEntry.efi   加载
 
@@ -29,7 +31,7 @@
 
     setup_var 0xD9E 0x00
     
-4, 核显共享显存
+4, 核显共享显存大小修改
 
 DP---PciRoot(0x0)/Pci(0x2,0x0)
 
