@@ -9,7 +9,6 @@
 
     或进入Mac OS 后，cp -r ~/Desktop/AppleBCM5751Ethernet.kext /System/Library/Extensions/
 
-
 2. 改声卡驱动
 
        NVRAM → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → boot-args   alcid=11  （临时用）
