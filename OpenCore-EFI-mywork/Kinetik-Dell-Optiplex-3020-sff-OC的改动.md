@@ -47,4 +47,8 @@ DP---PciRoot(0x0)/Pci(0x2,0x0)
 
     framebuffer-unifiedmem         Data       00000080 
 
+
+一阵操作猛如虎，结果不能进入菜单，卡代码了。
+
+可能是Kinetik-Dell-Optiplex-3020-sff-OC 版本太旧了，和新的 OCAT不兼容。。 还不如不改。
     
