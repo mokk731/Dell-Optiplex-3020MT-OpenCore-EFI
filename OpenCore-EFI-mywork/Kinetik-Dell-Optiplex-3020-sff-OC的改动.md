@@ -51,4 +51,6 @@ DP---PciRoot(0x0)/Pci(0x2,0x0)
 一阵操作猛如虎，结果不能进入菜单，卡代码了。
 
 可能是Kinetik-Dell-Optiplex-3020-sff-OC 版本太旧了，和新的 OCAT不兼容。。 还不如不改。
+
+至少是2021年左右的OC-EFI,现在2024年了，
     
