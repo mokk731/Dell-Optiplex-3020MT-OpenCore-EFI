@@ -11,6 +11,8 @@
 
 2, 改声卡驱动
 
+   Realtek ALC280 alcid=3，4，11，13，15，16，17,18,21
+  
        NVRAM → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → boot-args   alcid=11  （临时用）
 
        或.DP--PciRoot---layout-id  11000000    (正式用)
