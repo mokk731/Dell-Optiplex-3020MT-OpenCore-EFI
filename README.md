@@ -50,6 +50,10 @@ iMac14,3 i5-4570S@2.9G, 4C4T ,HD Graphics 4600
 
 intel 4代 Haswell 核心，Mac最高只支持到 macOS BigSur 11 .
 
+不要升级Big Sur系统,Big Sur系统对M1开始适配，对intel不友好.
+
+Catalina够用了。
+
 -------------------------------------------------------------------
 
 1, 能正常引导安装 macOS Catalina 10.15.7
