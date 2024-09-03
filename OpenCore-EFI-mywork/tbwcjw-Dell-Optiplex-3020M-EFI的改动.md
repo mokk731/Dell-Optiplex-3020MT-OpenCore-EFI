@@ -7,7 +7,9 @@
 
     Kernel--Add---RealtekRTL8111.kext
 
-    或进入Mac OS 后，cp -r ~/Desktop/AppleBCM5751Ethernet.kext /System/Library/Extensions/
+    或进入Mac OS 后，先解锁S/L/E权限.
+    
+    cp -r ~/Desktop/RealtekRTL8111.kext /System/Library/Extensions/
 
 2, 改声卡驱动
 
