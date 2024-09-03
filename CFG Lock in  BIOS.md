@@ -12,9 +12,14 @@ In case of 3020 MT and 3020 SFF computers
 
     setup_var 0xD9E 0x0
     
+    实际：原0x01，改为0x00
+    
   Set DVMT pre-alloc to 64MB:
 
     setup_var 0x263 0x2
+
+    实际：原0x01，改为0x02
+    
   Enable EHCI hand-off:
 
     setup_var 0x2 0x1
@@ -22,6 +27,9 @@ In case of 3020 MT and 3020 SFF computers
     setup_var 0x15A 0x2
     setup_var 0x146 0x0
     setup_var 0x147 0x0
+
+    实际：太复杂，没改，只在config.plist 配置里面设置Kernel--Quirks--XhciPortLimit
+    
 4. Reboot the system when done.
 
 
