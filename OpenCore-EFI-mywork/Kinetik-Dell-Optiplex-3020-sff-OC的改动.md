@@ -41,10 +41,10 @@ DP---PciRoot(0x0)/Pci(0x2,0x0)
 
     framebuffer-patch-enable 	Data   	  01000000
 
-    framebuffer-stolenmem 	     Data 	  00003001
+    framebuffer-stolenmem       Data 	  00003001
 
     framebuffer-fbmem  	       Data 	  00009000
 
-    framebuffer-unifiedmem      Data       00000080 
+    framebuffer-unifiedmem     Data       00000080 
 
     
