@@ -92,3 +92,11 @@ Next, go to the root of this USB drive and create a folder called com.apple.reco
 
     # Monterey (12)
     py macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000000000 download
+
+    # Ventura (13)
+    py macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download
+
+    # Latest version
+    # ie. Sonoma (14)
+    py macrecovery.py -b Mac-937A206F2EE63C01 -m 00000000000000000 download
+   
