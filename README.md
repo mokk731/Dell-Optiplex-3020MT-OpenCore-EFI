@@ -54,9 +54,15 @@ iMac14,3 i5-4570S@2.9G, 4C4T ,HD Graphics 4600
 
 2，Dell optiplex 3020mt 主板 BOIS的选项很少， 
 
-        EHCI/XHCI Hand-off  ， CFG Lock  没有选项。
+        BIOS没有选项。三个重要设置：
+
+       1，  Disable CFG Lock:
+
+        2， Set DVMT pre-alloc to 64MB
+
+        3， Enable EHCI hand-off
     
-        只能在 EFI-OC 中关闭。
+       可发在 EFI-OC 中关闭。
 
 3, macOS视频输出，VGA接口不支持，只能用DP口，可用DP口转HDMI口转换器，转成HDMI信号。
 
