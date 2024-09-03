@@ -101,7 +101,7 @@ VT-d
     如果不关闭的话，config.plist 配置里面设置 DisableIoMapper 选项为YES 也是 OK 的
 
 
-OC--Kernel--Quiks--
+OC--Kernel--Quirks--
 
 AppleCpuPmCfgLock
 
