@@ -48,6 +48,8 @@ Networking : Generic Intel PCIE NIC (7265) ----tbwcjw
 
 iMac14,3 i5-4570S@2.9G, 4C4T ,HD Graphics 4600
 
+intel 4代 Haswell 核心，Mac最高只支持到 Big Sur (11).
+
 -------------------------------------------------------------------
 
 1, 能正常引导安装 macOS Catalina 10.15.7
