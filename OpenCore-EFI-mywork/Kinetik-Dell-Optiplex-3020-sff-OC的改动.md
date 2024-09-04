@@ -54,13 +54,15 @@ DP---PciRoot(0x0)/Pci(0x2,0x0)
 
 至少是2021年左右的OC-EFI,现在2024年了，
 
-20240904, 只改了  Kernel--Quirks---AppleXcpmCfgLock 开
+20240904, 只改了  Kernel--Quirks---AppleXcpmCfgLock 开,,,,,
 
 就不能进入菜单，卡代码了。原版本太旧了，，，和新的 OCAT不兼容。
 
 用modGRUBShell将 BIOS的CFG Lock 解锁， 就可以正常引导使用！！ 
 
 核显共享显存大小问题，可能不是问题，都可以正常使用，看视频。
+
+这个EFI在2021年，应该算是高水平的，大小才17MB,硬件都能正常驱动，难点在；要手动解锁BIOS的CFG Lock。
 
 
     
