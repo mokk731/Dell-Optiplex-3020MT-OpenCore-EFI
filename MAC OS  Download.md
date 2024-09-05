@@ -97,6 +97,7 @@ Next, go to the root of this USB drive and create a folder called com.apple.reco
 
     # Monterey (12)
     py macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+    
 
     # Ventura (13)
     py macrecovery.py -b Mac-B4831CEBD52A0C4C -m 00000000000000000 download
