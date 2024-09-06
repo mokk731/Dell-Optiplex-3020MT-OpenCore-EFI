@@ -40,7 +40,7 @@ CPU  :  E3-1225 V3
 
 网卡 ：  RTL8111/RTL8168
 
-SSD  ：  32G sata ssd
+SSD  ：  120G sata ssd
 
 bios ：  AMI uEFI
 
