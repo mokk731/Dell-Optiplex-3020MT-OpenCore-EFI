@@ -128,4 +128,7 @@ https://jingyan.baidu.com/article/49711c61961428fa451b7c46.html
 
 如何提取原版镜像中的installESD.dmg文件
 
+https://www.douban.com/note/860919115/?_i=5621205XnARQZz
+
+MAC OS X Lion启动U盘制作和使用U盘安装系统图文教程
 
