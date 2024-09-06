@@ -123,3 +123,9 @@ https://divineengine.net/article/creating-a-bootable-installer-for-macos/
 下载可引导的 macOS 系统安装镜像及制作安装 U 盘
 
 InstallESD.dmg 文件就是压缩后带引导的安装镜像了。使用「balenaEtcher」将系统镜像写入 U 盘.
+
+https://jingyan.baidu.com/article/49711c61961428fa451b7c46.html
+
+如何提取原版镜像中的installESD.dmg文件
+
+
