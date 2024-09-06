@@ -105,6 +105,7 @@ Next, go to the root of this USB drive and create a folder called com.apple.reco
 -------------------------------------------------------------------------------------------
 
 https://support.apple.com/zh-cn/102662
+
 如何下载和安装 macOS
 
 
