@@ -102,3 +102,23 @@ Next, go to the root of this USB drive and create a folder called com.apple.reco
     # Ventura (13)
     py macrecovery.py -b Mac-B4831CEBD52A0C4C -m 00000000000000000 download
    
+-------------------------------------------------------------------------------------------
+
+https://support.apple.com/zh-cn/102662
+如何下载和安装 macOS
+
+
+    https://apps.apple.com/cn/app/macos-mojave/id1398502828?ls=1&mt=12
+    macOS Mojave
+
+    https://apps.apple.com/cn/app/macos-catalina/id1466841314?mt=12
+    macOS Catalina
+
+    https://apps.apple.com/cn/app/macos-monterey/id1576738294?mt=12
+    macOS Monterey
+
+https://divineengine.net/article/creating-a-bootable-installer-for-macos/
+
+下载可引导的 macOS 系统安装镜像及制作安装 U 盘
+
+InstallESD.dmg 文件就是压缩后带引导的安装镜像了。使用「balenaEtcher」将系统镜像写入 U 盘.
