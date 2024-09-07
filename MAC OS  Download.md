@@ -118,6 +118,14 @@ https://support.apple.com/zh-cn/102662
     https://apps.apple.com/cn/app/macos-monterey/id1576738294?mt=12
     macOS Monterey
 
+    -Mojave
+    InstallESD.dmg
+    5.16 GB
+
+    -Catalina
+    InstallESD.dmg
+    7.20 GB
+    
 https://divineengine.net/article/creating-a-bootable-installer-for-macos/
 
 下载可引导的 macOS 系统安装镜像及制作安装 U 盘
@@ -132,3 +140,4 @@ https://www.douban.com/note/860919115/?_i=5621205XnARQZz
 
 MAC OS X Lion启动U盘制作和使用U盘安装系统图文教程
 
+    
