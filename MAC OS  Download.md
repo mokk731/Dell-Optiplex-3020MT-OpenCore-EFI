@@ -118,14 +118,6 @@ https://support.apple.com/zh-cn/102662
     https://apps.apple.com/cn/app/macos-monterey/id1576738294?mt=12
     macOS Monterey
 
-    -Mojave
-    InstallESD.dmg
-    5.16 GB
-
-    -Catalina
-    InstallESD.dmg
-    7.20 GB
-
     
 https://support.apple.com/zh-cn/101578
 
