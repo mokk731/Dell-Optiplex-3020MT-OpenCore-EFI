@@ -146,6 +146,8 @@ https://macoshome.com/course/7096.html
 确保你下载的.app安装镜像都在应用程序文件夹内！非常重要！在“终端”中键入或粘贴以下命令之一。其中“MyVolume”是你U盘或者移动硬盘的名称。如果不是这个名称，请将这些命令中的 MyVolume 替换为你要制作的U盘或者移动硬盘的名称。注意：整个U盘或者移动硬盘都会被格式化用来制作安装盘，有东西要备份走。
 
     sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+    sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+    sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
 
 
 键入命令后：
