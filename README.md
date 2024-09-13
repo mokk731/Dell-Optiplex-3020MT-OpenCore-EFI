@@ -91,9 +91,11 @@ v1.0.1项目
 
     3, 改动Realtek ALC280 声卡驱动,alcid=11(16进制) 
 
-    4,  tbwcjw 原EFI支持 Intel PCIE NIC 7265 ，给与保留。
+    4, tbwcjw 原EFI支持 Intel PCIE NIC 7265 ，给与保留。
 
-    5,  MLB，SystemSerialNumber，SystemUUID 三码空白.
+    5, 不管BIOS的 CFG Lock 是否已解锁， 都可以正常引导。
+    
+    6,  MLB，SystemSerialNumber，SystemUUID 三码空白.
       
 
 
