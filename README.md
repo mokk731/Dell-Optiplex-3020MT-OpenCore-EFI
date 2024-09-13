@@ -85,14 +85,15 @@ Catalina够用了。
 
 v1.0.1项目
 
-    1, 增加了RTL8111网卡驱动，  
+    1, 基于OpenCore  0.9.3
+    
+    2, 增加了RTL8111网卡驱动，  
 
-    2, 改动Realtek ALC280 声卡驱动
+    3, 改动Realtek ALC280 声卡驱动,alcid=11(16进制) 
 
-    3,  tbwcjw 原EFI支持 Intel PCIE NIC 7265 ，给与保留。
+    4,  tbwcjw 原EFI支持 Intel PCIE NIC 7265 ，给与保留。
 
-    4,  MLB，SystemSerialNumber，SystemUUID
-      三码空白，要用OCAuxiliaryTools 填写自己的。
+    5,  MLB，SystemSerialNumber，SystemUUID 三码空白.
       
 
 
