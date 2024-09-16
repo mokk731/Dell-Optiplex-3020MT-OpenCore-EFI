@@ -26,7 +26,7 @@ https://github.com/daliansky/Hackintosh
 
 -------------------------------------------------------------------
 
-!(https://github.com/mokk731/Dell-Optiplex-3020MT-OpenCore-EFI/Images/macos202409.jpg)
+![macos202409](https://github.com/mokk731/Dell-Optiplex-3020MT-OpenCore-EFI/Images/macos202409.jpg)
 
 ## 我的硬件表：
 
