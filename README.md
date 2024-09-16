@@ -26,6 +26,8 @@ https://github.com/daliansky/Hackintosh
 
 -------------------------------------------------------------------
 
+(https://github.com/mokk731/Dell-Optiplex-3020MT-OpenCore-EFI/blob/main/Images/macos202409.jpg)
+
 ## 我的硬件表：
 
 CPU  :  E3-1225 V3
