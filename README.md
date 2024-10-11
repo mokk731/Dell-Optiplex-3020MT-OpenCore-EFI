@@ -64,7 +64,7 @@ Catalina够用了。
 
         BIOS没有选项。三个重要设置：
 
-       1，  Disable CFG Lock:
+        1，  Disable CFG Lock:
 
         2， Set DVMT pre-alloc to 64MB
 
@@ -75,6 +75,24 @@ Catalina够用了。
        config.plist 配置里面设置Kernel--Quirks--AppleXcpmCfgLock 选项为 YES
        VT-d
        config.plist 配置里面设置Kernel--Quirks--DisableIoMapper 选项为YES
+
+        ----------------------------------
+        
+       Important BIOS settings
+       Download modGRUBShell and place it in the EFI/OC/Tools folder. Add it to the Misc → Tools section of config.plist.
+       Boot into OpenCore and select the modGRUBShell option.
+
+       Enter the following values:
+
+       # Disable CFG Lock:
+       setup_var 0xD9E 0x00
+
+       # Set DVMT pre-alloc to 64MB:
+       setup_var 0x263 0x02
+
+      Reboot the system when done.
+
+
 
 3, macOS视频输出，VGA接口不支持，只能用DP口，可用DP口转HDMI口转换器，转成HDMI信号。
 
