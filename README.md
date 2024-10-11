@@ -54,7 +54,7 @@ intel 4代 Haswell 核心，Mac最高只支持到 macOS BigSur 11 .
 
 不要升级Big Sur系统,Big Sur系统对M1开始适配，对intel不友好.
 
-Catalina够用了。
+macOS Catalina 10.15 够用了。
 
 -------------------------------------------------------------------
 
@@ -79,7 +79,8 @@ Catalina够用了。
         ----------------------------------
         
        Important BIOS settings
-       Download modGRUBShell and place it in the EFI/OC/Tools folder. Add it to the Misc → Tools section of config.plist.
+       Download modGRUBShell and place it in the EFI/OC/Tools folder. 
+       Add it to the Misc → Tools section of config.plist.
        Boot into OpenCore and select the modGRUBShell option.
 
        Enter the following values:
@@ -90,8 +91,9 @@ Catalina够用了。
        # Set DVMT pre-alloc to 64MB:
        setup_var 0x263 0x02
 
-      Reboot the system when done.
-
+       Reboot the system when done.
+      ----------------------------------
+      
 
 
 3, macOS视频输出，VGA接口不支持，只能用DP口，可用DP口转HDMI口转换器，转成HDMI信号。
